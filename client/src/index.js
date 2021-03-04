@@ -5,7 +5,7 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import axios from 'axios'
 
-axios.defaults.baseURL = process.env.NODE_ENV === 'production' ? 'http://3.133.13.90:8080/' : 'http://localhost:8080'
+// axios.defaults.baseURL = process.env.NODE_ENV === 'production' ? 'YOUR PRODUCTION URL' : 'http://localhost:8080'
 axios.defaults.headers.post['Content-Type'] = 'application/x-www-form-urlencoded';
 
 ReactDOM.render(
